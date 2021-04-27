@@ -1,0 +1,33 @@
+h1.welcome{
+    color: blue;
+}
+a{
+    font-size: larger;
+}
+.links{
+    color: greenyellow;
+    font-size: x-large;
+}
+#segundo{
+    color: brown;
+    
+}
+
+/*
+formas de escrita no CSS
+tags: 
+    a{
+        modificações
+    }
+    h1{
+        modificações
+    }
+Id:
+    #identificador{
+        modificações
+    }
+Classe:
+    .nome-da-classe{
+        modificações
+    }
+*/
