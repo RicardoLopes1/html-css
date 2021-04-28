@@ -1,0 +1,48 @@
+body{
+    font-family: Helvetica, sans-serif;
+}
+a:link, a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#wrap{
+    width: 960px;
+    margin: auto; /*espaçamento externo. Da borda de fora até a parede do navegador*/
+    background: #e3e3e3;
+    padding: 10px 20px; /*espaçamento interno | 10px cima e baixo, 20px direita e esquerda*/
+    /*ordem do padding - topo, direita, baixo, esquerda*/
+    
+}
+
+header nav ul{
+    list-style: none; /*retira as bolinhas da lista*/
+    padding-left: 0;
+}
+header nav ul li{
+    display: inline-block; /*mostra em linha e em bloco*/
+    margin-right: 10px;
+}
+header nav ul li a{
+    font-size: 18px;
+}
+#content{
+    float: left; /*caixa flutuante na esquerda*/
+    background: #e300a0;
+    width: 660px;
+}
+#sidebar{
+    float: right; /*caixa flutuante na direita*/
+    background: #e3e3a0;
+    width: 300px;
+}
+#sidebar ul{
+    list-style: none; /*retira as bolinhas da lista*/
+}
+#sidebar ul li{
+    margin-bottom: 10px;
+}
+footer{
+    clear: both;
+}
