@@ -11,65 +11,72 @@
 
     <body>
         <!-- Comentário -->
-        <h1>Links e modificações de textos</h1> 
-        <p> 
-            <h2>Páginas:</h2>
+        <div id="wrap">
+            <h1>Links e modificações de textos</h1> 
+            <p> 
+                <nav id="navigation">
+                    <h2>Páginas:</h2>
+                    <ul>
+                        <li><a href="organization.html">Organização</a></li>
+                        <li><a href="link-img.html">Links e Imagens</a></li>
+                        <li><a href="seo-title.html">SEO - Títulos</a></li>
+                        <li><a href="estilo-css.html">Estilo CSS</a></li>
+                        <li><a href="primeiro-layout.html">Primeiro layout</a></li>
+                        <li><a href="formularios.html">Formulários</a></li>
+                    </ul>
+                </nav>
+
+                <h2>Aulas</h2>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=awabKnGTR1c" class="aulas" title="Aula 2 no youtube"
+                        target="_blank">RBtech - html e css (aula 2)</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=xgSSoUIr-Zg" class="aulas" title="Aula 3 no youtube" 
+                        target="_blank">RBtech - html e css (aula 3)</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=yj-j9gsQe5Q" class="aulas" title="Aula 8 no youtube" 
+                        target="_blank">RBtech - html e css (aula 8)</a> - Inicio do CSS.</li>
+                    <li><a href="https://www.youtube.com/watch?v=rEtEt9pK6YI" class="aulas" title="Aula 9 no youtube" 
+                        target="_blank">RBtech - html e css (aula 9)</a> - Div's e elementos flutuantes.</li>
+                    <li><a href="https://www.youtube.com/watch?v=KvYNJuj4IeM" class="aulas" title="Aula 10 no youtube" 
+                        target="_blank">RBtech - html e css (aula 10)</a>.</li>    
+                    <li><a href="https://www.youtube.com/watch?v=SE_8BeTWijo" class="aulas" title="Aula 11 no youtube" 
+                        target="_blank">RBtech - html e css (aula 11)</a>.</li>
+                </ul>
+                <br />
+                Segunda linha.
+                <br />
+                <h2>Formatação de texto</h2>
+                <ul>
+                    <li><strong>Negrito</strong></li>
+                    <li><em>Italico</em></li>
+                    <li><u>Sublinhado</u></li>
+                </ul>
+            </p>
+
+            <h2>LISTAS</h2>
+            <h3>Lista não ordenada</h3>
             <ul>
-                <li><a href="organization.html">Organização</a></li>
-                <li><a href="link-img.html">Links e Imagens</a></li>
-                <li><a href="seo-title.html">SEO - Títulos</a></li>
-                <li><a href="estilo-css.html">Estilo CSS</a></li>
-                <li><a href="primeiro-layout.html">Primeiro layout</a></li>
+                <li>Primeiro item da lista</li>
+                <li>Segundo item da lista</li>
+                <li>Terceito item da lista</li>
+                <li>Quarto item da lista</li>
             </ul>
 
-            <h2>Aulas</h2>
-            <ul>
-                <li><a href="https://www.youtube.com/watch?v=awabKnGTR1c" class="aulas" title="Aula 2 no youtube"
-                    target="_blank">RBtech - html e css (aula 2)</a></li>
-                <li><a href="https://www.youtube.com/watch?v=xgSSoUIr-Zg" class="aulas" title="Aula 3 no youtube" 
-                    target="_blank">RBtech - html e css (aula 3)</a></li>
-                <li><a href="https://www.youtube.com/watch?v=yj-j9gsQe5Q" class="aulas" title="Aula 8 no youtube" 
-                    target="_blank">RBtech - html e css (aula 8)</a> - Inicio do CSS.</li>
-                <li><a href="https://www.youtube.com/watch?v=rEtEt9pK6YI" class="aulas" title="Aula 9 no youtube" 
-                    target="_blank">RBtech - html e css (aula 9)</a> - Div's e elementos flutuantes.</li>
-                <li><a href="https://www.youtube.com/watch?v=KvYNJuj4IeM" class="aulas" title="Aula 10 no youtube" 
-                    target="_blank">RBtech - html e css (aula 10)</a>.</li>    
-            </ul>
-            <br />
-            Segunda linha.
-            <br />
-            <h2>Formatação de texto</h2>
-            <ul>
-                <li><strong>Negrito</strong></li>
-                <li><em>Italico</em></li>
-                <li><u>Sublinhado</u></li>
-            </ul>
-        </p>
+            <h3>Lista ordenada</h3>
+            <ol>
+                <li>Primeiro item da lista</li>
+                <li>Segundo item da lista</li>
+                <li>Terceito item da lista</li>
+                <li>Quarto item da lista</li>
+            </ol>
 
-        <h2>LISTAS</h2>
-        <h3>Lista não ordenada</h3>
-        <ul>
-            <li>Primeiro item da lista</li>
-            <li>Segundo item da lista</li>
-            <li>Terceito item da lista</li>
-            <li>Quarto item da lista</li>
-        </ul>
+            <h3>Lista de definição</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Linguagem de marcação.</dd>
 
-        <h3>Lista ordenada</h3>
-        <ol>
-            <li>Primeiro item da lista</li>
-            <li>Segundo item da lista</li>
-            <li>Terceito item da lista</li>
-            <li>Quarto item da lista</li>
-        </ol>
-
-        <h3>Lista de definição</h3>
-        <dl>
-            <dt>HTML</dt>
-            <dd>Linguagem de marcação.</dd>
-
-            <dt>YAML</dt>
-            <dd>Não é uma linguagem de marcação.</dd>
-        </dl>
+                <dt>YAML</dt>
+                <dd>Não é uma linguagem de marcação.</dd>
+            </dl>
+        </div>
     </body>
 </html>

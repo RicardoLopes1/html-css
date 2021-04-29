@@ -1,5 +1,27 @@
-a.aulas{
-    border: black;
-    font-size: 25px;
+body{
+    font-family: Helvetica, sans-serif;
+}
+#wrap{
+    width: 70%;
+    margin: auto; /*espaçamento externo. Da borda de fora até a parede do navegador*/
+    background: #e3e3e3;
+    padding: 10px 20px; /*espaçamento interno | 10px cima e baixo, 20px direita e esquerda*/
+    /*ordem do padding - topo, direita, baixo, esquerda*/
     
+}
+#navigation ul{
+    list-style: none;
+}
+
+#navigation ul li{
+    display: inline-block; /*mostra em linha e em bloco*/
+    margin-right: 10px;
+}
+#navigation ul li a{
+    text-decoration: none;
+    color: black;
+    border: blue;
+}
+#navigation ul li a:hover{
+    text-decoration: underline;
 }
