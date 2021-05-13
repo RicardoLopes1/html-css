@@ -1,0 +1,25 @@
+h1{
+    color: #ff6600;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    /*uppercase (todas as letras maiúsculas), lowercase (todas as letras minúsculas),
+    capitalize (primeira letra maiúscula por palavra)*/
+    width: 650px;
+    text-shadow: 1px 1px black ;
+    /*text-shadow: eixoX eixoY cor;*/
+    /*Google fonts*/
+    font-family: 'Bebas Neue', cursive;
+}
+
+p{
+    text-indent: 50px;
+    width: 550px;
+    /*text-align alinha o texto em right, left, justify ou center*/
+    font-size: 24px; /* 16px é o padrão*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#body{
+    background-color: gray;
+    width: 70%;
+    
+}
